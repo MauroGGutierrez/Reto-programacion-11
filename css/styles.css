@@ -1,0 +1,149 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+input {
+  font: inherit;
+}
+
+/*-------*/
+
+.rd {
+  border-radius: 0.4rem;
+}
+
+/*-------*/
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.logo {
+  width: 15rem;
+  height: auto;
+}
+
+.head {
+  background-color: yellow;
+  padding-block: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ellogo {
+  margin-left: -5rem;
+}
+
+.labusqueda {
+  margin-left: -10rem;
+}
+
+/*-------*/
+
+.boton {
+  background-color: #fff;
+  padding: 0.88rem 4.5rem;
+  cursor: pointer;
+}
+
+.busqueda {
+  margin-right: 1rem;
+  background-color: #fff;
+  padding: 0.9rem 29rem 0.9rem 1rem;
+  border: 0.1rem solid;
+}
+/*-------*/
+
+.resul {
+  margin-left: -50rem;
+}
+
+.lava {
+  width: 21rem;
+  height: auto;
+  margin-left: -3rem;
+}
+
+.tarjetas {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  margin-top: -3rem;
+  padding: 0.6rem 2rem;
+  border: 0.12rem solid black;
+  border-radius: 0.4rem;
+}
+
+.txt-arriba {
+  line-height: 0.8rem;
+}
+
+.texto-centro {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 3rem;
+  margin-right: 10rem;
+  margin-left: -2rem;
+}
+
+.caja-precio {
+  padding-top: 0.9rem;
+}
+
+.precio {
+  color: rgb(2, 141, 165);
+  vertical-align: top;
+  margin-top: -0.1rem;
+}
+
+/*-------*/
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  padding: 0.6rem 3.5rem;
+  border: 0.12rem solid black;
+  border-radius: 0.4rem;
+}
+
+.texto-centro2 {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 3rem;
+  margin-right: 10rem;
+  margin-left: -5rem;
+}
+
+.lava2 {
+  width: 21rem;
+  height: auto;
+  margin-left: -4rem;
+  margin-right: 3rem;
+}
