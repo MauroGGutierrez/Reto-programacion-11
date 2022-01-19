@@ -85,9 +85,10 @@ input {
   margin-top: -7rem;
 } */
 
-.lava {
-  width: 20rem;
-  height: 19rem;
+.pictures {
+  width: 19rem;
+  height: 18rem;
+  object-fit: contain;
 }
 
 .tarjetas {
@@ -114,7 +115,22 @@ input {
   border-radius: 0.4rem;
   margin-bottom: 2rem;
   background-color: white;
+  animation: escalar 2s infinite alternate;
+  transform: scale(1);
 }
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* @keyframes escalar{
+  to {
+    transform: scale(1);
+  }
+    from {
+  transform: scale(1.05);
+  }
+} */
 
 .txt-arriba {
   line-height: 2.4rem;
@@ -129,12 +145,15 @@ input {
 }
 
 .texto-centro {
+  width: 50%;
+  height: auto;
   display: flex;
   flex-direction: column;
   text-align: start;
   gap: 3rem;
   margin-right: 4rem;
   margin-left: 3rem;
+  position: relative;
 }
 
 .caja-precio {
@@ -148,7 +167,8 @@ input {
 }
 
 .sold {
-
+  position: absolute;
+  bottom: 0;
 }
 
 /*-------*/
