@@ -12,6 +12,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(236, 236, 236);
 }
 
 img {
@@ -72,14 +73,21 @@ input {
 }
 /*-------*/
 
-.resul {
-  margin-left: -50rem;
+.txt-result {
+  color: black;
+  margin-top: 2rem;
+  position: relative;
+  margin-left: 35rem;
 }
 
+/* .resul {
+  margin-left: -50rem;
+  margin-top: -7rem;
+} */
+
 .lava {
-  width: 29rem;
-  height: auto;
-  margin-left: -3rem;
+  width: 20rem;
+  height: 19rem;
 }
 
 .tarjetas {
@@ -88,20 +96,36 @@ input {
   gap: 3rem;
   justify-content: center;
   align-items: center;
+  margin-top: 5rem;
+}
+
+.tarjetas p {
+  color: black;
 }
 
 .card {
+  width: 70%;
+  margin-inline: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: -3rem;
-  padding: 0.6rem 4rem;
+  padding: 0.6rem 2rem;
   border: 0.12rem solid black;
   border-radius: 0.4rem;
   margin-bottom: 2rem;
+  background-color: white;
 }
 
 .txt-arriba {
-  line-height: 0.8rem;
+  line-height: 2.4rem;
+}
+
+.txt-arriba h2 {
+  font-size: 2rem;
+}
+
+.txt-arriba h3 {
+  color: red;
 }
 
 .texto-centro {
@@ -109,8 +133,8 @@ input {
   flex-direction: column;
   text-align: start;
   gap: 3rem;
-  margin-right: 10rem;
-  margin-left: -2rem;
+  margin-right: 4rem;
+  margin-left: 3rem;
 }
 
 .caja-precio {
@@ -121,6 +145,10 @@ input {
   color: rgb(2, 141, 165);
   vertical-align: top;
   margin-top: -0.1rem;
+}
+
+.sold {
+
 }
 
 /*-------*/

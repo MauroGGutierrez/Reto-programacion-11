@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="css/styles.css" />
     <script src="/main.js" async></script>
   </head>
-  <body class="container">
+  <body id="container" class="container">
     <header class="head">
       <div class="ellogo">
         <img class="logo" src="imagenes/mercado-libre-logo.png" alt="mercado" />
       </div>
       <div class="labusqueda">
-        <form id="Search">
+        <form id="search">
           <input
             type="text"
             id="busqueda"
@@ -23,15 +23,17 @@
             class="busqueda rd"
             placeholder="Buscar..."
           />
-          <button type="button" class="boton rd">
+          <button type="submit" class="boton rd" value="Buscar">
             <strong>Buscar</strong>
           </button>
         </form>
       </div>
       <div class="vacio"></div>
     </header>
+    <div class="txt-result">
+      <p class="resul" id="resul"><b>Resultados: 34341</b></p>
+    </div>
     <div class="tarjetas">
-      <p class="resul"><b>Resultados: 34341</b></p>
     </div>
     <template id="product-card">
       <div class="card">
@@ -41,7 +43,7 @@
             <h2>Nombre del Producto</h2>
             <h3>Nuevo</h3>
           </div>
-          <p>Vendidos: 34</p>
+          <p id="venta" class="sold">Vendidos: 34</p>
         </div>
         <div class="caja-precio">
           <h1 class="precio">$1111</h1>
